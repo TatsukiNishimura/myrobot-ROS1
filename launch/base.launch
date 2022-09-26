@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+<node name="send_twist_node" pkg="slam_robot" type="send_twist_node" output="screen"/>
+<node name="tcp_get_odom_node" pkg="slam_robot" type="tcp_get_odom_node" output="screen"/>
+
+</launch>
